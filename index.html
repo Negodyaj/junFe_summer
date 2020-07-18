@@ -1,12 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="site.css">
-    <title>My first site</title>
+    <link rel="stylesheet" href="./css/main-page.css">
+    <title>Travel site</title>
+    <script src="https://kit.fontawesome.com/3b96b19ef4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <header>
+        <div class="container flex-container">
+            <div class="header-left flex-container">
+                <img src="./img/Get2.png" alt="Logo" class="site-logo">
+                <nav>
+                    <a href="#" target="_blank" class="nav-link">Flights</a>
+                    <a href="#" target="_blank" class="nav-link">Hotels</a>
+                    <a href="#" target="_blank" class="nav-link">Car hire</a>
+                </nav>
+            </div>
+            <div class="header-right">
+                <button class="text-button">Help</button>
+                <span class="separator"></span>
+                <button class="text-button">Register</button>
+                <button class="login-button">Login</button>
+            </div>
+        </div>
+    </header>
+    <section class="first-screen">
+        <img src="./img/bangkok_pattaya.png" class="offer-background" alt="Здесь должна быть картинка Бангкока">
+        <div class="section-back"></div>
+        <div class="container">
+            <div class="hot-offer-block">
+                <div class="are-you-ready">
+                    Are you ready for <span class="offer-city">Bangkok and Pattaya</span>?
+                </div>
+                <div class="offer-details">
+                    With discounts up to €
+                    <span class="offer-description">150 per room; 2 nights in Bangkok, 3 days in Pattaya</span>
+                    for only <span class="offer-total-amount">449</span> €!
+                </div>
+                <div class="offer-info flex-container">
+                    <div class="info-widget">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span class="offer-location">Bangkok & Pattaya - TH</span>
+                    </div>
+                    <div class="info-widget">
+                        <i class="far fa-clock"></i>
+                        <span class="offer-time">23:15, GMT+7</span>
+                    </div>
+                    <div class="info-widget">
+                        <i class="far fa-sun"></i>
+                        <span class="offer-weather">Sunny, 28°C</span>
+                    </div>
+                    <div class="info-widget">
+                        <i class="fas fa-plane"></i>
+                        <span class="offer-flights">+78 Flights</span>
+                    </div>
+                    <div class="info-widget">
+                        <i class="fas fa-bed"></i>
+                        <span class="offer-hotels">+615 Hotels</span>
+                    </div>
+                    <div class="info-widget">
+                        <i class="fas fa-car"></i>
+                        <span class="offer-cars">+41 Cars</span>
+                    </div>
+                </div>
+            </div>
+            <div class="filters-panel flex-row-center">
+                <div class="filters-container flex-row-center">
+                    <div class="filter-container">
+                        <div class="filter-caption">Category</div>
+                        <div class="filter-dropdown flex-between-center">
+                            <span class="filter-value">Flights</span>
+                            <button class="filter-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="filter-container">
+                        <div class="filter-caption">Category</div>
+                        <div class="filter-dropdown flex-between-center">
+                            <span class="filter-value">Flights</span>
+                            <button class="filter-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="filter-container">
+                        <div class="filter-caption">Category</div>
+                        <div class="filter-dropdown flex-between-center">
+                            <span class="filter-value">Flights</span>
+                            <button class="filter-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="filter-container">
+                        <div class="filter-caption">Category</div>
+                        <div class="filter-dropdown flex-between-center">
+                            <span class="filter-value">Flights</span>
+                            <button class="filter-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="filter-container">
+                        <div class="filter-caption">Category</div>
+                        <div class="filter-dropdown flex-between-center">
+                            <span class="filter-value">Flights</span>
+                            <button class="filter-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                    <div class="filter-container">
+                        <div class="filter-caption">Category</div>
+                        <div class="filter-dropdown flex-between-center">
+                            <span class="filter-value">Flights</span>
+                            <button class="filter-btn"><i class="fas fa-chevron-down"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <button class="search-btn">SEARCH!</button>
+            </div>
+        </div>
+    </section>
+    <section class="tours-section">
+        <div class="container">
+            <h2 class="common-section-header">Tours</h2>
+            <p class="common-section-description">Travel packages for every budget. Which one is yours?</p>
+            <div class="tours-carousel flex-between-center">
+                <div class="carousel-arrow">
+                    <div class="arrow-back"></div>
+                    <i class="fas fa-long-arrow-alt-left"></i>
+                </div>
+                <a href="http://www.booking.com" target="_blank" class="tour-card">
+                    <img src="https://www.wallpaperup.com/uploads/wallpapers/2013/02/05/34887/ffff47aa688c61d9178fb17ac2194a68-700.jpg"
+                        class="tour-image">
+                    <div class="card-content">
+                        <h3 title="Eastern European architectural building tours Eastern European architectural building tours"
+                            class="tour-title">Eastern European architectural building tours Eastern European
+                            architectural building tours</h3>
+                        <div class="tour-prices">
+                            <div class="tour-price">
+                                <i class="fas fa-plane"></i>
+                                <div class="price-value">59 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-bed"></i>
+                                <div class="price-value">218 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-car"></i>
+                                <div class="price-value">72 €</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://www.booking.com" target="_blank" class="tour-card">
+                    <img src="https://www.wallpaperup.com/uploads/wallpapers/2013/02/05/34887/ffff47aa688c61d9178fb17ac2194a68-700.jpg"
+                        class="tour-image">
+                    <div class="card-content">
+                        <h3 class="tour-title">New year tours in towns like fairy tale</h3>
+                        <div class="tour-prices">
+                            <div class="tour-price">
+                                <i class="fas fa-plane"></i>
+                                <div class="price-value">179 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-bed"></i>
+                                <div class="price-value">147 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-car"></i>
+                                <div class="price-value">36 €</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://www.booking.com" target="_blank" class="tour-card">
+                    <img src="https://www.wallpaperup.com/uploads/wallpapers/2013/02/05/34887/ffff47aa688c61d9178fb17ac2194a68-700.jpg"
+                        class="tour-image">
+                    <div class="card-content">
+                        <h3 class="tour-title">A wide choice of domestic ski tours</h3>
+                        <div class="tour-prices">
+                            <div class="tour-price">
+                                <i class="fas fa-plane"></i>
+                                <div class="price-value">126 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-bed"></i>
+                                <div class="price-value">82 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-car"></i>
+                                <div class="price-value">65 €</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="http://www.booking.com" target="_blank" class="tour-card">
+                    <img src="https://www.wallpaperup.com/uploads/wallpapers/2013/02/05/34887/ffff47aa688c61d9178fb17ac2194a68-700.jpg"
+                        class="tour-image">
+                    <div class="card-content">
+                        <h3 class="tour-title">Warm sea tours in cold winter</h3>
+                        <div class="tour-prices">
+                            <div class="tour-price">
+                                <i class="fas fa-plane"></i>
+                                <div class="price-value">835 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-bed"></i>
+                                <div class="price-value">121 €</div>
+                            </div>
+                            <div class="tour-price">
+                                <i class="fas fa-car"></i>
+                                <div class="price-value">-</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="carousel-arrow right">
+                    <div class="arrow-back"></div>
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+            </div>
+            <button class="common-section-btn">See all tours</button>
+        </div>
+    </section>
+    <!-- <section class="popular-cities">
+        <div class="container">
+            <h2></h2>
+            <div class="city-radiobuttons"></div>
+            <div class="photos-container"></div>
+            <img src="" alt="" class="city-logo">
+        </div>
+    </section> -->
+    <section class="near-places-section">
+        <div class="container">
+            <h2 class="common-section-header">Near places</h2>
+            <p class="common-section-description">Reward yourself somewhere on the weekends!</p>
+            <div class="places-filter flex-between-center">
+                <button class="places-filter-btn">
+                    <i class="fas fa-camera"></i>
+                    <span>Photogprahy</span>
+                </button>
+                <button class="places-filter-btn">
+                    <i class="fas fa-users"></i>
+                    <span>Family</span>
+                </button>
+                <button class="places-filter-btn">
+                    <i class="fas fa-user-friends"></i>
+                    <span>Friends</span>
+                </button>
+                <button class="places-filter-btn active">
+                    <i class="far fa-grin-hearts"></i>
+                    <span>Romantic</span>
+                </button>
+                <button class="places-filter-btn">
+                    <i class="fas fa-tree"></i>
+                    <span>Nature</span>
+                </button>
+                <button class="places-filter-btn">
+                    <i class="far fa-gem"></i>
+                    <span>Posh</span>
+                </button>
+            </div>
+            <div class="places-grid">
+                <div class="place-card">
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/203/203514497.jpg"
+                        class="place-card-image">
+                    <div class="place-card-content"></div>
+                </div>
+                <div class="place-card">
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/203/203514497.jpg"
+                        class="place-card-image">
+                    <div class="place-card-content"></div>
+                </div>
+                <div class="place-card">
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/203/203514497.jpg"
+                        class="place-card-image">
+                    <div class="place-card-content"></div>
+                </div>
+                <div class="place-card">
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/203/203514497.jpg"
+                        class="place-card-image">
+                    <div class="place-card-content"></div>
+                </div>
+                <div class="place-card">
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/203/203514497.jpg"
+                        class="place-card-image">
+                    <div class="place-card-content"></div>
+                </div>
+                <div class="place-card">
+                    <img src="https://q-cf.bstatic.com/images/hotel/max1024x768/203/203514497.jpg"
+                        class="place-card-image">
+                    <div class="place-card-content"></div>
+                </div>
+            </div>
+            <button class="common-section-btn">Show more</button>
+        </div>
+    </section>
+    <footer>
+        <div class="container flex-between-center">
+            <img src="./img/Get2.png" class="site-logo">
+            <span class="copyright">Copyright © 2020</span>
+        </div>
+    </footer>
 </body>
+
 </html>

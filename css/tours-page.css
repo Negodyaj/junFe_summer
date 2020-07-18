@@ -1,0 +1,160 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: local("Proxima Nova Regular"), local("ProximaNova-Regular"), url("../fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: local("Proxima Nova Bold"), local("ProximaNova-Bold"), url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Proxima Nova Rg";
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-between-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.flex-row-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+header .container {
+  height: 110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-logo {
+  width: 102px;
+  position: relative;
+  left: -8px;
+  top: 4px;
+  margin-right: 74px;
+}
+
+.nav-link,
+.text-button {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 39px;
+}
+
+.logo-and-nav .nav-link:last-child {
+  margin-right: 0;
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.header-right .text-button,
+.header-right .separator {
+  margin-right: 19px;
+}
+
+.header-right .text-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.header-right .separator {
+  display: inline-block;
+  vertical-align: middle;
+  height: 18px;
+  width: 1px;
+  background-color: white;
+}
+
+.login-button {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  padding: 15px 31px;
+  border: solid 1px #ffffff;
+  border-radius: 3px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+footer {
+  height: 108px;
+  background-color: black;
+}
+
+footer .copyright {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+.main-block {
+  background-color: red;
+}
+/*# sourceMappingURL=tours-page.css.map */
